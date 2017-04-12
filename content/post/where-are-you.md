@@ -26,7 +26,7 @@ The key thing to note is the power behind the site is Lambda, triggered by an ho
 The bucket contents is pretty basic:
 
 <pre>
-- justinderby.com/
+- isderbyiniowa.com/
   - api/
     - no.html
     - yes.html
