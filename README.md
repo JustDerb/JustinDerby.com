@@ -8,5 +8,5 @@ Updating
 
 ```bash
 hugo
-aws s3 cp public/* s3://justinderby.com/ --recursive
+aws s3 cp public/ s3://justinderby.com/ --recursive
 ```
