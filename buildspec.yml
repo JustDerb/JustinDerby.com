@@ -16,6 +16,7 @@ phases:
       - rm -rf /tmp/hugo*
   build:
     commands:
+      - git init
       - git submodule update --init --recursive
       - hugo
   post_build:
