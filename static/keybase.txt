@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/derby
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://justinderby.com
+  * I am derby (https://keybase.io/derby) on keybase.
+  * I have a public key with fingerprint 3461 29CF 88EA DC03 5BFF  5CAD 8F15 1A2E 5D13 E787
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101710a4d840aaf4562400d64b541042e45564f70d92ce0a9d70a51ef66e41374b30a",
+            "fingerprint": "346129cf88eadc035bff5cad8f151a2e5d13e787",
+            "host": "keybase.io",
+            "key_id": "8f151a2e5d13e787",
+            "kid": "0101710a4d840aaf4562400d64b541042e45564f70d92ce0a9d70a51ef66e41374b30a",
+            "uid": "57d6f7c06e35a3a3b445e5fce28c1b19",
+            "username": "derby"
+        },
+        "service": {
+            "hostname": "justinderby.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1483234136,
+    "expire_in": 157680000,
+    "prev": "5923345690d25663e35e2eb33e5c42003b64f1cee20b31f43d2cb45bfc5ba9e2",
+    "seqno": 17,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.61
+Comment: https://keybase.io/crypto
+
+yMInAnicrVJbSBRRGF5LjaTaDNKCInYqqFyXM3POmZldDKR8iIqiG5lGyzkzZ3TS
+ndlmx00rXypSHzSjG9GVluiiWC89hNKdopKkgm4UZEVXC6qHlFjrzGJvPXZeDuf/
+v+873/efc3P8aF9e1o/5G/Zl7U1dyLp37WCdr7y6snyrQG29QYhsFWpYZmO1Oku4
+0RpTFyICEIGoiIAgXUWAEANhWUIA6DKiGIkASQxhLCNDAXpY0hggYV0BBIvMkGWG
+RKggCgERgoJhWlXMiTum5XJZiGRRCmuGqjKiawBiahhYI7pqiFgkEsO6CJmiKpxY
+bSc8BjdHSYKFTJvX+CGasfcP/H/2XZeRw4ouG4oGZAYxgQRShDDDhsYkVROpGPaA
+CeZYJMY4WmcObRAagwIvJU2NeVP1Yoy0N9YlXNPKgEKaHePcuGO7tmbX8ma168Yj
+HtdtiHvgzYxGR2SilLP4GDkhyZyEaVtCRORIzTU9XRGpUILcuxwUWH3cdFjU9BBY
+kVXAl3cNS3phwhKEfCBhoEtYliHPxCRGIWRYQxIAkPLBiBpjEqBQNBDUJY0i/kQa
+piTMJMELtsmyubbCfZIqrpkwqyzi1jlMaLx+dX22LyvPl5szyvtfvryxE//+ukRq
+TLrw7NcS/Gjy+9ldM/pbLtZeap7Tc/3T7cDOj/jVyh2p4QWHfq/ePXVVz+vTz4rv
+1Ph/DpS9yK5otm20bWbT/jZHDV4eWN4+tLT1yaR+tzvvCQmVbrKK24796r71dXqf
+27pq8oJ7x2kZmeJf1NF8Nb29b+BK+/CEwbQVen3i1NyO2KddOS/OtIIlqd6C7sKh
+zhNwS5rsKQodjLCiLXdjQ4ethcqKZb1l3wdT57+1fLnxNHtb9813+OjLA024oGte
+Z86Rt3OCuTueJ48GSwM1ufnO6ICvpOXBw+SeWe2PK5bvrv9QGVhbvJf4q/Pvnzz3
+Jrt33O3Za+qPTPvsX0eKbf9i60HwD2LIPt4=
+=AOgS
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/derby
+
+==================================================================
