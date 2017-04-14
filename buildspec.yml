@@ -18,10 +18,10 @@ phases:
   build:
     commands:
       - mkdir -p themes
-      - pushd themes
+      - cd themes
       - git clone https://github.com/yoshiharuyamashita/blackburn.git blackburn
       - git reset --hard "${BLACKBURN_THEME_SHA1}"
-      - popd
+      - cd ..
       - hugo
   post_build:
     commands:
