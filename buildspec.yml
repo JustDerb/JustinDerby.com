@@ -1,0 +1,23 @@
+version: 0.1
+
+environment_variables:
+  plaintext:
+    AWS_DEFAULT_REGION: "us-west-2"
+    HUGO_VERSION: "0.20.1"
+    HUGO_SHA256: "02cc04e30da6ba2dbf7ddee1a1778e8a0e6adf3cbab074a224ba8d5d472049d1"
+
+phases:
+  install:
+    commands:
+      - curl -Ls https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz -o /tmp/hugo.tar.gz
+      - echo "${HUGO_SHA256}  /tmp/hugo.tar.gz" | sha256sum -c -
+      - tar xf /tmp/hugo.tar.gz -C /tmp
+      - mv /tmp/hugo_${HUGO_VERSION}_linux_amd64/hugo_${HUGO_VERSION}_linux_amd64 /usr/bin/hugo
+      - rm -rf /tmp/hugo*
+  build:
+    commands:
+      - hugo
+  post_build:
+    commands:
+      - aws s3 sync --delete public/ s3://justinderby.com
+
