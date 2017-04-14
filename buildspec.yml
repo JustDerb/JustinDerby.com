@@ -5,6 +5,7 @@ environment_variables:
     AWS_DEFAULT_REGION: "us-west-2"
     HUGO_VERSION: "0.20.1"
     HUGO_SHA256: "02cc04e30da6ba2dbf7ddee1a1778e8a0e6adf3cbab074a224ba8d5d472049d1"
+    BLACKBURN_THEME_SHA1: "43b2c9346694de8cfb1b7db52e28f5e1cb16c82a"
 
 phases:
   install:
@@ -16,8 +17,11 @@ phases:
       - rm -rf /tmp/hugo*
   build:
     commands:
-      - git init
-      - git submodule update --init --recursive
+      - mkdir themes
+      - pushd themes
+      - git clone https://github.com/yoshiharuyamashita/blackburn.git blackburn
+      - git reset --hard "${BLACKBURN_THEME_SHA1}"
+      - popd
       - hugo
   post_build:
     commands:
