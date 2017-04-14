@@ -17,7 +17,7 @@ phases:
       - rm -rf /tmp/hugo*
   build:
     commands:
-      - mkdir themes
+      - mkdir -p themes
       - pushd themes
       - git clone https://github.com/yoshiharuyamashita/blackburn.git blackburn
       - git reset --hard "${BLACKBURN_THEME_SHA1}"
